@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/8/85/200px-Fenerbah%C3%A7e.png/150px-200px-Fenerbah%C3%A7e.png",
+    "teamName": "Fenerbahce",
+    "championships": 28,
+    "secondPlace": 26
+  },
+  {
+    "id": 2,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Galatasaray_Star_Logo.svg.png/150px-Galatasaray_Star_Logo.svg.png",
+    "teamName": "Galatasaray",
+    "championships": 23,
+    "secondPlace": 19
+  },
+  {
+    "id": 3,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Be%C5%9Fikta%C5%9F_Football_Club_logo.svg/200px-Be%C5%9Fikta%C5%9F_Football_Club_logo.svg.png",
+    "teamName": "Besiktas",
+    "championships": 21,
+    "secondPlace": 19
+  },
+  {
+    "id": 4,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/a/ab/TrabzonsporAmblemi.png/150px-TrabzonsporAmblemi.png",
+    "teamName": "Trabzonspor",
+    "championships": 6,
+    "secondPlace": 8
+  },
+  {
+    "id": 5,
+    "img": "https://cdn.freebiesupply.com/logos/large/2x/kara-harp-okulu-logo-png-transparent.png",
+    "teamName": "Harp Okulu SK",
+    "championships": 3,
+    "secondPlace": 1
+  },
+  {
+    "id": 6,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/f7/Genclerbirligi.png/150px-Genclerbirligi.png",
+    "teamName": "Genclerbirligi",
+    "championships": 2,
+    "secondPlace": 1
+  },
+  {
+    "id": 7,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/a/a5/KulupLogolari-000240.png/150px-KulupLogolari-000240.png",
+    "teamName": "Istanbul Basaksehir",
+    "championships": 1,
+    "secondPlace": 2
+  },
+  {
+    "id": 8,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/ff/Ankarademirspor.png/150px-Ankarademirspor.png",
+    "teamName": "Ankara Demirspor",
+    "championships": 1,
+    "secondPlace": 1
+  },
+  {
+    "id": 9,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fe/G%C3%B6ztepe.png/150px-G%C3%B6ztepe.png",
+    "teamName": "Goztepe",
+    "championships": 1,
+    "secondPlace": 1
+  },
+  {
+    "id": 10,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/8/87/Muhaf%C4%B1zg%C3%BCc%C3%BC_SK%27nin_logosu.jpg",
+    "teamName": "Muhafizgucu SK",
+    "championships": 1,
+    "secondPlace": 0
+  },
+  {
+    "id": 11,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/e/ed/IstanbulsporAS.png/150px-IstanbulsporAS.png",
+    "teamName": "Istanbulspor",
+    "championships": 1,
+    "secondPlace": 0
+  },
+  {
+    "id": 12,
+    "img": "https://tmssl.akamaized.net/images/wappen/head/85959.png?lm=1606522063",
+    "teamName": "Gunes SK",
+    "championships": 1,
+    "secondPlace": 0
+  },
+  {
+    "id": 13,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/e/e7/Eski%C5%9Fehir_Demirspor.png/150px-Eski%C5%9Fehir_Demirspor.png",
+    "teamName": "Eskisehir Demirspor",
+    "championships": 1,
+    "secondPlace": 0
+  },
+  {
+    "id": 14,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/9/97/MKE_Ankarag%C3%BCc%C3%BC_logo.png/150px-MKE_Ankarag%C3%BCc%C3%BC_logo.png",
+    "teamName": "Ankaragucu",
+    "championships": 1,
+    "secondPlace": 0
+  },
+  {
+    "id": 15,
+    "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/5/5c/Bursaspor-amblem.png/150px-Bursaspor-amblem.png",
+    "teamName": "Bursaspor",
+    "championships": 1,
+    "secondPlace": 0
+  }
+]
