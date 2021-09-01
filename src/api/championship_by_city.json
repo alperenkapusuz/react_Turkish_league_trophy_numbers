@@ -1,0 +1,26 @@
+[
+    {
+        "city" : "Istanbul",
+        "championship" : 75
+    },
+    {
+        "city" : "Ankara",
+        "championship" : 7
+    },
+    {
+        "city" : "Trabzon",
+        "championship" : 6
+    },
+    {
+        "city" : "Bursa",
+        "championship" : 1
+    },
+    {
+        "city" : "Eskisehir",
+        "championship" : 1
+    },
+    {
+        "city" : "Izmir",
+        "championship" : 1
+    }
+]

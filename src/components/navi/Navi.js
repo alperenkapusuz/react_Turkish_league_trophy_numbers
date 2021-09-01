@@ -17,7 +17,7 @@ const Navi = () => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Türkiye Futbol Müzesi</NavbarBrand>
+        <NavbarBrand href="/mainmenu">Türkiye Futbol Müzesi</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

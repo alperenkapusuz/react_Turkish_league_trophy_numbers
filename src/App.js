@@ -5,6 +5,7 @@ import Navi from "./components/navi/Navi"
 import LeagueCup from "./components/leagueCup/LeagueCup";
 import ZiraatCup from "./components/ziraatCup/ZiraatCup"
 import SuperCup from "./components/superCup/SuperCup";
+import ChampionshipByCity from "./components/championshipByCity/ChampionshipByCity"
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
         <Navi/>
         <Router>
             <Switch>
-              <Route path="/leaguecup" component={LeagueCup} />
-              <Route path="/ziraatcup" component={ZiraatCup} />
-              <Route path="/supercup" component={SuperCup} />
+              <Route path="/mainmenu" component={ChampionshipByCity}/>
+              <Route path="/leaguecup/" component={LeagueCup} />
+              <Route path="/ziraatcup/" component={ZiraatCup} />
+              <Route path="/supercup/" component={SuperCup} />
             </Switch>
         </Router>
       </Container>

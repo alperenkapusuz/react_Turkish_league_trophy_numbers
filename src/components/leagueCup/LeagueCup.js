@@ -18,7 +18,7 @@ const LeagueCup = () => {
           return (
             <tr key={team.id}>
               <td>
-                <img src={team.img} />
+                <img src={team.img} alt="logo"/>
               </td>
               <td>{team.teamName}</td>
               <td>{team.championships}</td>
