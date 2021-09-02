@@ -1,8 +1,11 @@
 import React from "react";
-import {  Row, Col, Card } from "reactstrap";
+import { Row, Col, Card } from "reactstrap";
 import Leaguecup from "../../api/leaguecup.json";
 import ziraatcup from "../../api/ziraatcup.json";
 import supercup from "../../api/supercup.json";
+import superligcupImg from "../../images/superligcup.png";
+import supercupImg from "../../images/supercup.png";
+import ziraatcupImg from "../../images/ziraatcup.png";
 
 import {
   BarChart,
@@ -22,6 +25,7 @@ const LeagueCup = () => {
     <Row>
       <Card>
         <Col>
+          <h1>Süper Lig Kupası<img src={superligcupImg} alt="cup" width="60" /></h1>
           <BarChart
             width={1250}
             height={500}
@@ -40,6 +44,7 @@ const LeagueCup = () => {
 
       <Card>
         <Col>
+        <h1>Ziraat Türkiye Kupası<img src={ziraatcupImg} alt="cup" width="60" /></h1>
           <BarChart
             width={1250}
             height={500}
@@ -58,6 +63,7 @@ const LeagueCup = () => {
 
       <Card>
         <Col>
+        <h1>Süper Kupa<img src={supercupImg} alt="cup" width="60" /></h1>
           <BarChart
             width={1250}
             height={500}
