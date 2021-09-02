@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(110, 110, 110);
+    color: yellow;
+    padding-left: 20px;
+}
+
+.navbarbrand{
+    color: yellow;
+}
+
+.navbarbrand:hover{
+    color: rgba(255, 255, 0, 0.651);
+}
+
+.navbar .navlink{
+    color: yellow;
+}
+
+.navbar .navlink:hover{
+    color: rgba(255, 255, 0, 0.651);
+}

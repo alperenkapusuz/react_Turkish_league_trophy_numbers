@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+import "./Navi.css";
 
 const Navi = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,19 +17,19 @@ const Navi = () => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/mainmenu">Türkiye Futbol Müzesi</NavbarBrand>
+      <Navbar expand="md" className="navbar">
+        <NavbarBrand href="/mainmenu" className="navbarbrand">Türkiye Futbol Müzesi</NavbarBrand>
         <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/leaguecup/">Lig Kupası</NavLink>
+        <Collapse isOpen={isOpen} navbar  className="mr-auto">
+          <Nav  navbar className="nav">
+            <NavItem >
+              <NavLink href="/leaguecup/" className="navlink">Lig Kupası</NavLink>
+            </NavItem>
+            <NavItem >
+              <NavLink href="/ziraatcup/" className="navlink">Ziraat Kupası</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ziraatcup/">Ziraat Kupası</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/supercup/">Süper Kupa</NavLink>
+              <NavLink href="/supercup/" className="navlink">Süper Kupa</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
