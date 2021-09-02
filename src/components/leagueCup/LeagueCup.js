@@ -4,25 +4,25 @@ import leaguecupData from "../../api/leaguecup.json";
 
 const LeagueCup = () => {
   return (
-    <Table bordered>
-      <thead>
+    <Table>
+      <thead className="thead">
         <tr>
-          <th>logo</th>
-          <th>Takım adı</th>
-          <th>Süper Lig Birincliği</th>
-          <th>Süper Lig İkinciliği</th>
+          <th style={{textAlign:"center"}}>logo</th>
+          <th style={{textAlign:"center"}}>Takım adı</th>
+          <th style={{textAlign:"center"}}>Süper Lig Birincliği</th>
+          <th style={{textAlign:"center"}}>Süper Lig İkinciliği</th>
         </tr>
       </thead>
       <tbody>
         {leaguecupData.map((team) => {
           return (
             <tr key={team.id}>
-              <td>
-                <img src={team.img} alt="logo"/>
+              <td style={{textAlign:"center"}}>
+                <img src={team.img} alt="logo" width="65"/>
               </td>
-              <td>{team.teamName}</td>
-              <td>{team.championships}</td>
-              <td>{team.secondPlace}</td>
+              <td style={{textAlign:"center", fontSize:"25px"}}>{team.teamName}</td>
+              <td style={{textAlign:"center", fontSize:"30px"}}>{team.championships}</td>
+              <td style={{textAlign:"center", fontSize:"30px"}}>{team.secondPlace}</td>
             </tr>
           );
         })}
