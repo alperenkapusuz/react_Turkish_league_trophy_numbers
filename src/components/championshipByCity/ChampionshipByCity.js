@@ -1,8 +1,9 @@
 import React from "react";
-import { Table, Row, Col } from "reactstrap";
+import { Table, Row, Col,Card } from "reactstrap";
 //import championships_by_city from "../../api/championship_by_city.json";
 import Leaguecup from "../../api/leaguecup.json";
 import ziraatcup from "../../api/ziraatcup.json";
+import supercup from "../../api/supercup.json";
 
 import {
   BarChart,
@@ -12,44 +13,70 @@ import {
   Tooltip,
   Legend,
   Bar,
+  LabelList,
+  Label
 } from "recharts";
 
 const LeagueCup = () => {
-
   const data = Leaguecup;
+  const data2 = ziraatcup;
+  const data3 = supercup;
 
   return (
     <Row>
-      {/* <Col xs="3">
-        <Table bordered>
-          <thead>
-            <tr>
-              <th>Şehir</th>
-              <th>Şampiyonluk Sayısı</th>
-            </tr>
-          </thead>
-          <tbody>
-            {championships_by_city.map((data) => {
-              return (
-                <tr key={data.id}>
-                  <td>{data.city}</td>
-                  <td>{data.championship}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </Table>
-      </Col> */}
-      <Col xs="5">
-        <BarChart width={970} height={500} data={data}>
+      <Card>
+      <Col>
+        <BarChart
+          width={1250}
+          height={500}
+          data={data}
+          margin={{ top: 30, right: 30, left: 20, bottom: 5 }}
+        >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="teamName"/>
-          <YAxis dataKey="championships"/>
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="championships" fill="#8884d8" />
+          <XAxis dataKey="teamName" tick={false} />
+          <YAxis/>
+          <Bar dataKey="championships" fill="#8884d8">
+            <LabelList dataKey="teamName" position="insideTop" angle="35" />
+          </Bar>
         </BarChart>
       </Col>
+      </Card>
+
+      <Card>
+      <Col>
+        <BarChart
+          width={1250}
+          height={500}
+          data={data2}
+          margin={{ top: 30, right: 30, left: 20, bottom: 5 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="teamName" tick={false} />
+          <YAxis/>
+          <Bar dataKey="championships" fill="#8884d8">
+            <LabelList dataKey="teamName" position="insideTop" angle="35" />
+          </Bar>
+        </BarChart>
+      </Col>
+      </Card>
+
+      <Card>
+      <Col>
+        <BarChart
+          width={1250}
+          height={500}
+          data={data3}
+          margin={{ top: 30, right: 30, left: 20, bottom: 5 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="teamName" tick={false} />
+          <YAxis/>
+          <Bar dataKey="championships" fill="#8884d8">
+            <LabelList dataKey="teamName" position="insideTop" angle="35" />
+          </Bar>
+        </BarChart>
+      </Col>
+      </Card>
     </Row>
   );
 };
