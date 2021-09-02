@@ -16,7 +16,7 @@ import {
   LabelList,
 } from "recharts";
 
-const LeagueCup = () => {
+const Charts = () => {
   const data = Leaguecup;
   const data2 = ziraatcup;
   const data3 = supercup;
@@ -83,4 +83,4 @@ const LeagueCup = () => {
   );
 };
 
-export default LeagueCup;
+export default Charts;
